@@ -84,7 +84,7 @@ class LogViewerApp(QMainWindow):
         if okPressed:
          try:
                 datetime.strptime(time, '%H:%M')  
-                script_path = r"C:/Users/kosti/Desktop/final_practice/log_parser.py"  # Здесь укажите путь к скрипту, который будет выполяться каждый день
+                script_path = r"C:/Путь/к/вашему/файлу/log_parser.py"  # Здесь укажите путь к скрипту, который будет выполяться каждый день
                 task_name = "MyTask"  # Название задачи
                 command = f'schtasks /Create /SC DAILY /TN {task_name} /TR "python {script_path}" /ST {time}'
                 subprocess.call(command, shell=True)
