@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 Base = declarative_base()
-engine = create_engine('mysql+pymysql://root:Pa$$vv0rD@localhost/apache_base')
+engine = create_engine('mysql+pymysql://username:password@host/database_name')
 Session = sessionmaker(bind=engine)
 session = Session()
 class LogEntry(Base):
