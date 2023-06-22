@@ -9,7 +9,7 @@ app = Flask(__name__)
 def get_logs():
     api_key = request.headers.get('x-api-key')
 
-    if api_key != '12345iii':
+    if api_key != '#######': #здесь вместо ##### нужно указать свой собственный API ключ (ключ нужно придумать самому)
         return jsonify({'error': 'Invalid API key'}), 403
 
     group_by_ip = request.args.get('group_by_ip')
