@@ -1,10 +1,10 @@
 {
     "database": {
-        "user": "root",
-        "password": "Pa$$vv0rD",
-        "host": "127.0.0.1",
-        "port": "3306",
-        "name": "apache_base"
+        "user": "",
+        "password": "",
+        "host": "",
+        "port": "",
+        "name": ""
     },
-    "log_file_path": "C:/Users/kosti/Desktop/final_practice/access.log"
+    "log_file_path": "C:/Путь/к/вашему/файлу/access.log"
 }
