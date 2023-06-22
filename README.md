@@ -7,7 +7,7 @@ Apache-parser - это графическое приложение на базе
 1. Склонируйте репозиторий проекта:
 
     ```
-    git clone https://github.com/your-github-username/log-viewer.git
+    git clone https://github.com/cemorum/apache-parser.git
     ```
 
 2. Установите зависимости проекта:
